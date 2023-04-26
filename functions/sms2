@@ -1,0 +1,79 @@
+<?php
+function sms_send($message_destination,$message_body)
+{
+	/*
+	$url="http://localhost/webservices/send_bulksms_web_service_REST.php";
+	$data = (['username'=>'dbmonitoring','password'=>'anaconda','source'=>'9820005009','destinations'=>''.$destinations_mobile_no.'','message_body'=>''.$message_body.'','language'=>'FA']);
+	$data = json_encode($data);
+	$client = curl_init($url);
+	curl_setopt($client,CURLOPT_POST,1);
+	curl_setopt($client,CURLOPT_POSTFIELDS,$data);
+	//curl_setopt($client,CURLOPT_URL,$url);
+	$response=curl_exec($client);
+	$result=json_decode($response);
+	*/
+	global $client;
+	global $db;
+	global $today_datetime;
+	
+	$message_id=0;
+	$err = $client->getError();
+	if ($err) 
+	{
+		$message_status_code = "X001";
+		$message_error_description = $err;
+	}
+
+	$message_destinations = array();
+
+	if (substr($message_destination,0,2)=="09")
+	{
+		$message_destination = "98".substr($message_destination, 1);
+	}
+	else if (substr($message_destination,0,3)=="+98")
+	{
+		$message_destination = substr($message_destination, 1);
+	}
+	else if (substr($message_destination,0,4)=="0098")
+	{
+		$message_destination = substr($message_destination, 2);
+	}
+		
+	
+	
+	$result = $client->call('Send', array('organization' => SMS_SERVICE_ORGANIZATION,'username' => SMS_SERVICE_USERNAME,'password' => SMS_SERVICE_PASSWORD,'srcNumber' => SMS_SERVICE_SOURCE_NO,'body' => $message_body,'destNo' => $message_destination,'flash' => '0'));
+
+	echo "<pre>";
+	print_r($client);
+	print_r($result);
+	echo "masoud".$client->getError();
+	echo "</pre>";
+	if ($client->fault) 
+	{
+		$message_status_code = "X002";
+		$message_error_description = "";
+	}
+	else
+	{
+		$err = $client->getError();
+		if ($err) 
+		{
+			$message_status_code = "X003";
+			$message_error_description = $err;
+		} 
+		else
+		{
+			$meesage_id=$result[0];
+		}
+	}
+	$db->query("
+		insert into messages set
+		message_id='".$message_id."',
+		message_source='".SMS_SERVICE_SOURCE_NO."',
+		message_destination='".$message_destination."',
+		message_date_time='".$today_datetime."',
+		message_body='".$message_body."',
+		message_status_code='".$message_status_code."',
+		message_error_description='".$message_error_description."'
+	");
+}

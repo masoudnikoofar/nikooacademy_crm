@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "nikoo-academy-lms",
+  "private_key_id": "edcd53a2ccc390c2076b524d51703014e8a23949",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEugIBADANBgkqhkiG9w0BAQEFAASCBKQwggSgAgEAAoIBAQCFx2oIGurpXL6z\ndgA9fRC8fQLsnboQxddO+KlYHLjPEp3JU6V3APIush2fkIa51IC9aIRjudZFyCe5\n3zNuEIvNoT5DG/5Vjsdpx6H9C5Sh2MnRCvFRVvpc3wNUnF5rnSAbTxNVQ7wrM55k\nDQhxo/BQKSiDD1ZxpI7H6zhtaL8hd5E6hnnIdnj6WWSzr15aUK3c49wgK8+yZZAi\n5AIXdXn3AZJkHA2GfcLPAtbf0S88o38wSrUzFPGzfFYZFj9SDbzpidzQVsOXFZw+\nj1Xs6w36Bz1CYmaR/PJKoLRej8jFm2pBXicuTrcF3f5QCRJmpjMDRZOW4S3u8PRa\nnTcgOngJAgMBAAECgf9Vs2o5xwS2erOwQ+fjfDs8hNlau7B3DkbgUGwsBjpebY6n\nau6VTgXX5EMV9YBZi8jtjgdB28to6NCKQnKwD+l/0cwRMd288brOCRW9Ba4yAK9J\nO7lcYlwBItz/Vy0lw4LN+9pmxP3Gr0rIzZCbPGq276cETs8R/ll5uTZs4K2Qwhsf\nqhr0Sy3A/Lcc4zo3WAmhNjOY+p2qP2KfdBkvLAalEBSM0GDm/4JE6wczUIcha18Z\n0N/fE8Eyhu85NU/m+EaGMKlXvRgSrN5XdW4ET69i6FZtolUP4rfQWFQjp/+EkhvN\np9MSJ+/M+otLtyf2tikqqgQ5VBHkmsisg0fbItECgYEAvMEoACr7c5jMWAeU8V4h\nSDyHWn1+mxeQRW5RVxC+Q9RYQk7rR6qTXasnjYgTfI6HyIb2Zv5M852Ecb5MImhg\nw7noMm9RVomVQwz6rdhG4X2/pQ8LFlCQYuT5REPy1JVKhAUqNba1R/PYrzVecW5v\nUA/cQxGymqZ9dfrjAF5FvmcCgYEAtXBcjoDCnkhRAAdCet8yH2x1vs+pwBZdBKnl\n1bzthHhgYEv9X0cI+QP4exvjleNDg+XqMpjCVRJoE5LDCHKZ9tqcsVonFe6kV5s3\nWtm6fiDRZCoE9KHdSy7r5ftqycVIHdirKIc9UwpZEDyaUEy2sTCQDZKxPRVyb+Py\net1nMA8CgYAGOVRJVSF/eU1bpbxajSEJ0b0g1byD/q3qLC4QcePkNq9GWHXXoh9D\n2m3uc8s4szZ0/UZItR/ydII2gfDevZRbP9kROKx07wp18Iqfit8jdlMIbUuPS87H\nBAfYIWlzawzO96Chrsmher/tXxQjJ2ISQMOhjobWJKFEb6Zmj7U7BwKBgDVmFFd8\nXcrnza8Mc+xltAK7kQvPYk4+RrIQrqvxJpZON08gDjn0Vhezq3XQB3Mdp8kx6XNq\nsgcHm8nm76+Uyutz+5nWxpoV2hhOfkQmwFROpFGubDbzTIXMEXFmRU+M2GSwV+9d\nnhbKfNvieigX68zKVhsoiTFJFp0HoV23u57RAoGACIyaZAb18bGPLlVjTSnAsM51\nRuMcAyNCY9sber/IynK5yrRmj+CqVoWGYcxPAX7FZlaiuPg926sb4m93T9Ru90uC\nKqy9Eg2LQYbTTDB9CcEX8XG/nx0lLLsTn/NNpEbp8ntAcDn4UDR7ju3t2hQfhPCA\nZXZA4ZJqQVS/fCYv+ho=\n-----END PRIVATE KEY-----\n",
+  "client_email": "nikooacademy-service-account@nikoo-academy-lms.iam.gserviceaccount.com",
+  "client_id": "117378644769216371246",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nikooacademy-service-account%40nikoo-academy-lms.iam.gserviceaccount.com"
+}

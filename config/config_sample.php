@@ -1,0 +1,15 @@
+﻿<?php
+define("DB_HOST","");
+define("DB_USERNAME","");
+define("DB_PASSWORD","");
+define("DB_DBNAME","");
+define("DB_CHAR_SET","");
+define("SMS_SERVICE_ORGANIZATION","");
+define("SMS_SERVICE_USERNAME","");
+define("SMS_SERVICE_PASSWORD","");
+define("SMS_SERVICE_SOURCE_NO","");
+define("SMS_SERVICE_URL","");
+define("CERTIFICATE_EN_URL","");
+define("TITLE","");
+$company_name_en="";
+?>

@@ -1,0 +1,140 @@
+@font-face {
+  font-family: IranianSans;
+  src: url(IranianSans.ttf);
+}
+@font-face {
+  font-family: Vazir;
+  src: url('vazir/Vazir-Black.eot');
+  src: url('vazir/Vazir-Black.eot?#iefix') format('embedded-opentype'),
+       url('vazir/Vazir-Black.woff2') format('woff2'),
+       url('vazir/Vazir-Black.woff') format('woff'),
+       url('vazir/Vazir-Black.ttf') format('truetype');
+  font-weight: 900;
+}
+
+body
+{
+	font-family:‌Vazir;
+	direction:rtl;
+	margin: 0;
+    font-family: Vazir;
+    font-size: 20px;
+	background:#fc9b0c;
+}
+
+.logincontent
+{
+	font-size:12px;
+	direction:rtl;
+	margin-top:100px;
+}
+.logincontent a
+{
+	text-decoration:none;
+	color:black;
+}
+.logintable
+{
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	font-size: 15px;
+	background-color: rgba(253, 209, 16, 0.5);
+	color: #040301;
+}
+
+
+.tables
+{
+	font-size:15px;
+	border-collapse: collapse;
+	direction:rtl;
+    text-align: right;
+}
+
+
+.tablesheader
+{
+	font-size:20px;
+	color:#040301;
+	text-align:center;
+	font-weight:bold;
+    height: 30;
+	padding: 20px;
+}
+
+
+input
+{
+	border: 1px solid #fc9b0c; 
+	border-radius: 5px;
+	padding: 10px;
+	background-color: #fc9b0c; 
+	width: 70%;
+}
+textarea
+{
+	border: 1px solid #fc9b0c;
+	border-radius: 5px;	
+	padding: 1px;
+	background-color: #fc9b0c; 
+	width: 80%;
+}
+input[type="radio"] {
+  width:20%;
+}
+input[type="checkbox"] {
+	width:20px;
+}
+  
+
+button
+{
+	font-family: Vazir;
+    font-weight:bold;
+    width:auto;
+    cursor: pointer; 
+    border: 1px solid #fc9b0c;
+	border-radius: 5px;	
+    padding: 10px; 
+	background-color: #fc9b0c;
+	color: #040301;
+}
+.odd
+{
+    #background-color:#F0F8FF;
+}
+
+
+.taskbar
+{
+	background-color:#040301;
+    direction:rtl;
+    font-size: 12px;
+    color:#fdd110;
+}
+.taskbar a
+{
+    color:#fdd110;
+}
+.taskbar a:hover
+{
+    color:#fc9b0c;
+}
+
+.footer
+{
+    background-color:040301;
+	color: #fdd110;
+    text-align: center;
+    width: 100%;
+}
+.footer a
+{
+	color: #fdd110;
+}
+.footer a:hover
+{
+	color: #fc9b0c;
+}

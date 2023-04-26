@@ -1,0 +1,297 @@
+body
+{
+	direction:rtl;
+	margin: 0;
+    font-family: tahoma;
+    font-size: 12px;
+	background:#FFFFFF;
+}
+
+.taskbar
+{
+	background-color:#3C2415;
+    direction:rtl;
+    font-size: 12px;
+    color:#ffffff;
+}
+.taskbar a
+{
+    color:#ffffff;
+}
+.taskbar a:hover
+{
+    color:#ffffff;
+}
+
+.header
+{
+    text-align: center;
+    background-image: url(../admin/images/back.jpg);
+}
+
+.footer
+{
+    background-color:silver;
+    text-align: center;
+    width: 100%;
+}
+.content
+{
+	font-family:Tahoma;
+	font-size:12px;
+	direction:rtl;
+}
+.content a
+{
+	text-decoration:none;
+	color:black;
+}
+.menu
+{
+    background: black;  
+    font-family: tahoma;
+    color:white;
+}
+
+.menu_links_tr
+{
+    text-align:center;
+    background: #3C2415;
+    border:1px solid #000000;
+}
+.menu_links
+{
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight:bold;
+    text-align:center;
+    color:#ffffff;
+}
+.menu_links a
+{
+    font-family: tahoma;
+    color:#ffffff;
+}
+.menu_links a:hover
+{
+    font-family: tahoma;
+    color:#ffffff;
+}
+.menu_sublinks
+{
+    text-align: center;
+    font-family:Tahoma;
+    font-size:11px; 
+    //color:#FFB300;
+}
+.menu_sublinks a
+{
+    //color:#FFB300;
+    color:yellow;
+}
+.menu_sublinks a:hover
+{
+    color:red;
+}
+.submenu
+{
+    text-align: left;
+}
+
+.links1
+{
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    background-color:#fff2d7;
+    color:#fc4100;
+    text-align: center;
+    border:1px solid #000000;
+}
+.links1 a
+{
+    color:#fc4100;
+}
+.links1 a:hover
+{
+    color:red;    
+}
+.links1#selected a
+{
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color:black;
+}
+.links1#selected a:hover
+{
+    color:black
+}
+
+
+.tables
+{
+	font-family:"Tahoma",Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	border-collapse: collapse;
+	direction:rtl;
+    text-align: right;
+}
+.tables#selected
+{
+    background-color: gray;
+}
+#nowrap
+{
+	white-space: nowrap;
+}
+#rotate2
+{
+  display:inline-block;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+#rotate
+{
+  
+
+-moz-transform: rotate(7.5deg);  /* FF3.5+ */
+-o-transform: rotate(7.5deg);  /* Opera 10.5 */
+-webkit-transform: rotate(7.5deg);  /* Saf3.1+, Chrome */
+filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=1);  /* IE6,IE7 allows only 1, 2, 3 */
+-ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)"; /* IE8 allows only 1 2 or 3*/
+
+
+}
+.tablessum
+{
+	font-family:"Tahoma",Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#00a651;
+	color:#000000;
+	text-align:center;
+	font-weight:bold;
+    height: 30;
+}
+
+.tablesheader
+{
+	font-family:"Tahoma",Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#3C2415;
+	color:#FFFFFF;
+	text-align:center;
+	font-weight:bold;
+    height: 30;
+}
+.tablesheader_print
+{
+	font-family:"Tahoma",Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:center;
+	font-weight:bold;
+    height: 30;
+}
+
+#signout
+{
+		text-align:right;
+}
+
+.tabtable
+{
+	font-weight:bold;
+	background-color:black;
+	color:white;
+}
+.tabtable a
+{
+	color:#fff;
+	text-decoration:none;
+}
+.tabtable a:hover
+{
+	color:#fff;
+	text-decoration: underline;
+}
+
+.warning
+{
+	font-weight:bold;
+	
+}
+
+input
+{
+	border: 1px solid #A8CDFF; 
+	padding: 1px;
+	background-color: #FDFDFD; 
+	font-family:Tahoma;
+}
+input.radio
+{
+	border:0px;
+}
+input.submit
+{
+    color:#3C2415;
+    font: 10pt "Tahoma", Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    width:auto;
+    cursor: pointer; 
+    border: 1px solid #A8CDFF; 
+    padding: 1px; 
+    background-color: #F0F8FF;
+    height:30%;
+}
+select {
+	font-family:Tahoma;
+	width: 100%;
+	border: 1px solid #A8CDFF; 
+	padding: 1px;
+	background-color: #FDFDFD;
+}
+button
+{
+    color:#3C2415;
+    font: 10pt "Tahoma", Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    width:auto;
+    cursor: pointer; 
+    border: 1px solid #A8CDFF; 
+    padding: 1px; 
+    background-color: #F0F8FF;
+}
+.odd
+{
+    background-color:#F0F8FF;
+}
+
+.tableslist
+{
+    font-family:"Tahoma",Verdana, Arial, Helvetica, sans-serif;
+    font-size:12px;
+    border-collapse: collapse;
+    direction:ltr;
+    text-align:center;
+}
+.tableslist#selected
+{
+    background-color: gray;
+}
+
+.tableslistr
+{
+    font-family:"Tahoma",Verdana, Arial, Helvetica, sans-serif;
+    font-size:12px;
+    border-collapse: collapse;
+    direction:rtl;
+    text-align:center;
+}
+.tableslistr#selected
+{
+    background-color: gray;
+}

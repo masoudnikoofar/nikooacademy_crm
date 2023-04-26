@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "nikoo-academy-crm",
+  "private_key_id": "9287e005b9feaf7f267256aa2acdeddcab80066b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDT4I+3FV/tLuLF\nmp0fsB36OnM4Nqol6ngDyvP32pmPRQkktFpcyrLl13fhM9gPzTDj1x4Wxhz0oEJF\nzyMLFQz7zoIVvdzQtU1NlB8cAwr5ysHPJ89IazX7zBWaFHtAyuUxuozrIQaAd7P7\nsZNvTtVDDbdpfqWKMIYD3MiugT9qh9ktl6/tjNmgFDweRgoB2hq4fCU01Ahf/Kap\nzH2Vjj7AsQgcJpB5E7sWZJ8QsnLrs/O/xpAXre1jaGxxHupWp3NviM+Q/24vCcmm\nrN27HunnImHrWHYoWZO2jolfYYO0Zc5uNx4FnFJOne5GfvQWCK/JKJNKSfJ40teH\nKQKWatlJAgMBAAECgf8L+0XyiOvhLk0JW0UJAaIMcgaIsS34Vcy7SgqjEQmuobZo\nHP+Sds6cKHoWeS9l2Bt299hRC0kbg4yYvVqI14GfREkPZ3dmH52FwbrA1Hes6Ah/\nzdTPw1sRk5mtbhoPD7RWjYKH6p0RkkqmEMM83mjR7/mN2z0vxVYd0B4t8yb/A2sF\n/zQqCbnmZsDgGuaU7EQFVTNh0RU+drud6iSYzpz/KO6PE+QTovmozE/Qtb+/W3/M\n2QxKhb7Yk++PxDsn2lbeuU4BXVOcD17EEIx4vC4b/lMocx9zONaOLG59jQEziOM5\nl7kZA+jKoOWgPAhFh1AE+AoqWY2Aj92q/3PKFKECgYEA6Zz0PP/O5DoLaBHQCcgp\n7nYh2Kbu0hoBV54OhvUD+pyXU/WdfHglrG/VV3YO9PBaFrabQst0fgvowuioSuk/\nj4RWv+rewhgbW9FDTZK6cCqjgnNR8PktHj8VFpvRNJ0BrGCc9trcb6U43VhQcv0h\n8DefeC49DRAb+83d4WyPyCMCgYEA6C5gnvWbNpnm178Fg9zL51Eprdts9hS6wwUt\ndT/vyiNf+rzW6tZOLfvAlMgVFbZLGmh69EAmlYHkWWij4Sy/2+onEdYAhDhFrIaT\nVhMikqyC9nXn1J1UI6bxs9+NYlq++1ImzuTEYW0uUCYMFVVS3sdPuoSzRWcW2WDX\n3HYRGaMCgYEAqiudsg15LMCnbHCFRYrcGItOzl2TW9J7pdJJrL8v3c9RYGRrCq8O\nalSwaFxkOsIWLbNo17gSrHqKW+hUJvVPSoDRHE2/ZE1hKHn/97LpQimdH7pXNxyb\nZAv5lZV9SEESZfmefSciKeWFzZ62Q3zmyvAJpuavrCNO7xagCMQm3FcCgYEAmFlO\nJx/r7+D+mxSJzuODnE4idiUkEzi475ynHmeMtWuO4B0nPMLQW9X0oOvFAhEyqKpj\n+39YkgPATXafCfLuFaRIbKiqgBfYiANqDDHUHsA50vS84UM24Yn60VdgE2iOJqTa\nOCnePjuBBzBf/2OUVAAebboDVAf38z1bhxqlz9cCgYEAhBFCZ5huR5CWRwYn/Uww\nxekCSjInk69pnj6lD89QwMnnTswDye19GtxRkheLjmnIIQ86ncYZcU74QyOB2t0B\ncI/yvTzHb26tqpxw9Hjtcr0Glk9JK97h4q5VKzScS1Tv2HoWd3ZiHQZgt30fTFVO\nzmnXGooGfv/zyHZp9oH8Iaw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "nikooacademy-service-account@nikoo-academy-crm.iam.gserviceaccount.com",
+  "client_id": "108908071973696630429",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nikooacademy-service-account%40nikoo-academy-crm.iam.gserviceaccount.com"
+}

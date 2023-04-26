@@ -1,0 +1,24 @@
+.logincontent
+{
+	font-family:Tahoma;
+	font-size:12px;
+	direction:rtl;
+	margin-top:100px;
+}
+.logincontent a
+{
+	text-decoration:none;
+	color:black;
+}
+.logintable
+{
+	border:1px solid #336699;
+
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	font-family: Tahoma;
+	font-size: 10px;
+	background:#BAB8BA;
+}
